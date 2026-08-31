@@ -1,0 +1,23 @@
+{
+  "version": "0.4.6",
+  "pub_date": "2026-08-20T18:45:44Z",
+  "notes": "Voir les notes de version sur GitHub.",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.4.6/LifeOS_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUMURGVEdCUHp1WTFlZ2NQTVBMcS9TeDIrakZ1YzM4YzFvZ0ZHL0x1ZUtSbnJ6bVpmNlg4TlhEai9McVAwdG0vczAvekQxUTBFYVRtYnpMYzJaTjllNGgwOW9UY0wvbWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MTI1MDM3CWZpbGU6TGlmZU9TX2FhcmNoNjQuYXBwLnRhci5negpGWTl3ZFVqVHFxZFZVZzJUbXJsVHFnSDR5S2NzL3JRNDVXWTF1L3hoZmZ1NFUzcG5XSUsyVFAyUFR1RzV4b1dpSk9YbndITG40OUt2bEVpV29ldDlEdz09Cg=="
+    },
+    "darwin-x86_64": {
+      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.4.6/LifeOS_x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUMURGVEdCUHp1WSt4cm01N3dlVmdZWm03RlV6bXBYK05uNFdQQ1ZoeDhiTS95RU5TS244VjVHTnBDTTFZL0ttWXo4aWl2OGFXR29rVVArTGFnNTNNaUoxbGlHM0FmREFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MTI1MDM3CWZpbGU6TGlmZU9TX3g2NC5hcHAudGFyLmd6CmRsZDVKQm1ZdnVENGhGMlJHb0pSV2FWaGE2SmY3alJNN0U1dkdQSy85VmRaanp3Z3J1R29KQVZtT05IMC9uQWZkQVc1S25aMmM5NWpDSlMzcXdwd0JnPT0K"
+    },
+    "windows-x86_64": {
+      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.4.6/LifeOS_0.4.6_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUMURGVEdCUHp1WXp6Yi9PNzNjVFEyNzVrcWZlejhRMW1zSEFYQTh6Mll1ZFZzV2hEVFdKeTRjcm4xWEltTkVQZm15aHhnQ2ZBSmdDcW9LQjZxSUdKQlJSOUY2Mmx3WmdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MTI1MDM3CWZpbGU6TGlmZU9TXzAuNC42X3g2NC1zZXR1cC5leGUKNHhXbThGOWRpdHZseC9BSCt4dUo1NkVsSnJrTUR6Z1FIZ2VkaXpmemtSMlVGYndxM2RzNktQUmNadVMxRXZzWVlCRnQ2STdJM1Jyd2NSSGtjbCtDRHc9PQo="
+    },
+    "linux-x86_64": {
+      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.4.6/LifeOS_0.4.6_amd64.AppImage",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUMURGVEdCUHp1WTBUSmFneHBRYlh4YnVFcUp2S3VkbTJxVjlBcGRRbVNLcjFzVTVHeXdqclFKQWJ5Nm84c2krRWxSOVdVMWRma3JYZmNRUkhzdk13dkIxVTdnUlVkaUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MTI1MDM3CWZpbGU6TGlmZU9TXzAuNC42X2FtZDY0LkFwcEltYWdlCjdtY2w5ODR3OUxrRVB0WG1yWGRlTXluc0EwV1pTNFJvdE5uYmVwNGYvVmxLbFhoSDNBcWdYbFlxdFBKaUNQQjBBakZCYUFWMjhQWGRBNlZKRHNDWUR3PT0K"
+    }
+  }
+}
