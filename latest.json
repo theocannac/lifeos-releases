@@ -1,51 +1,51 @@
 {
-  "version": "0.5.15",
-  "notes": "- Espace crée une tâche directement dans Capture, Aujourd’hui et les projets. Échap conserve les notes avant de refermer la fiche.\n- Menu : rythme compact et régulier à la souris, avec des cibles tactiles conservées.\n- War Map : dates plus contrastées, jours passés grisés et mois en liste de journées sur téléphone.\n- Notes de tâches : le clic sur Notes, sur le texte existant ou dans la zone vide ouvre la saisie sans refermer la tâche. Les liens et la sélection de texte restent utilisables.\n- Planning depuis une tâche : choix du jour et de la durée, avec départ à aujourd’hui pour les tâches en retard.\n- Classement multiple : rattachement à un objectif directement dans la barre de sélection.\n- Suivi : progression du score et explications visibles dans la vue principale, avec une suggestion d’action.\n- Téléphone : le bouton d’ajout ne recouvre plus les commandes d’une tâche ouverte.",
-  "pub_date": "2026-10-25T20:50:32.924Z",
+  "version": "0.5.16",
+  "notes": "- Espace crée aussi une tâche en place dans À venir, À tout moment et Un jour, même lorsque la liste est vide.\n- Les tâches créées dans Aujourd’hui et À venir reçoivent la date correspondante ; Un jour conserve son statut. Le classement historique n’est plus appliqué en silence dans la création en place.\n- La saisie en place devient disponible sans attente artificielle de 100 ms et la mise au point ne recentre pas la page.\n- Les appuis longs sont annulés lorsqu’on quitte leur carte, pour éviter les menus qui s’ouvrent après un changement de page.",
+  "pub_date": "2026-10-26T13:05:05.132Z",
   "platforms": {
-    "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbGJpeTk0ZFo3VEpxdmpjZlhVQU82YVlZaEpjZVROc0xEMXZUS3BaU0xvRGdEcEtYTW1IdVA4QVlJUjZUVVZ5UERaMjNGTHBZL0EzR2ltc1BuOUZ6OWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTYwNjQ5CWZpbGU6TGlmZU9TLmFwcC50YXIuZ3oKblQrNzhidnF6Q2ZLbkowQ0gya1JLZC9DekprTGJhWWhPaytNNWRRWEJmMi91L3pPTE5Ub2JtYXgwb1psZkh3ZGRqTlZQb1htUlhVQUM0UzNraXMzQ0E9PQo=",
-      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.15/LifeOS_aarch64.app.tar.gz"
-    },
-    "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbGJpeTk0ZFo3VEpxdmpjZlhVQU82YVlZaEpjZVROc0xEMXZUS3BaU0xvRGdEcEtYTW1IdVA4QVlJUjZUVVZ5UERaMjNGTHBZL0EzR2ltc1BuOUZ6OWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTYwNjQ5CWZpbGU6TGlmZU9TLmFwcC50YXIuZ3oKblQrNzhidnF6Q2ZLbkowQ0gya1JLZC9DekprTGJhWWhPaytNNWRRWEJmMi91L3pPTE5Ub2JtYXgwb1psZkh3ZGRqTlZQb1htUlhVQUM0UzNraXMzQ0E9PQo=",
-      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.15/LifeOS_aarch64.app.tar.gz"
-    },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbFFFNVI5U2NER0ROb0VVTFAyOWlNRk9ENmhMc2NDaW9XSDlOWUZRZ0I4T2RzS2E4RDgrNllRRzBhM0YwaTJHNUk5bGQxVzJJblNDU0JjUFkyQlREV2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTYwNjgzCWZpbGU6TGlmZU9TLmFwcC50YXIuZ3oKNVFTdnI1UTluVytCaU5VdFduMklLRnRBSGxNZUUyODU1UjRVbDVWeDg3cHExOHJjS1F3d1ZjSVByS1dXSkRTVmNnS0dKbEt4SFRmb2d6T0lyM3BzRHc9PQo=",
-      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.15/LifeOS_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbGFSUVh3UTZXNzVOeHVhT0pTcHU3U2NIVW5rL0kxQkRRK3VzQkNGVUVYNzNtMGhiY2hsL01EUmR4LytobkVjV3U1VUxhUXJGd3dkT2xSdWo2V3JlZVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDE4OTIyCWZpbGU6TGlmZU9TLmFwcC50YXIuZ3oKeTJ3QXIzV0NuRDRMN3Q1ZHdmOHFzMTdQbzlGUmMya3VzVEZIZ3N2OUl6NlV1Nmh1TG0wVlVCUlNxS0JZbFJ0MmVPUXRadGJUVjk4NjNUK3B1WVJCQXc9PQo=",
+      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.16/LifeOS_x64.app.tar.gz"
     },
     "darwin-x86_64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbFFFNVI5U2NER0ROb0VVTFAyOWlNRk9ENmhMc2NDaW9XSDlOWUZRZ0I4T2RzS2E4RDgrNllRRzBhM0YwaTJHNUk5bGQxVzJJblNDU0JjUFkyQlREV2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTYwNjgzCWZpbGU6TGlmZU9TLmFwcC50YXIuZ3oKNVFTdnI1UTluVytCaU5VdFduMklLRnRBSGxNZUUyODU1UjRVbDVWeDg3cHExOHJjS1F3d1ZjSVByS1dXSkRTVmNnS0dKbEt4SFRmb2d6T0lyM3BzRHc9PQo=",
-      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.15/LifeOS_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbGFSUVh3UTZXNzVOeHVhT0pTcHU3U2NIVW5rL0kxQkRRK3VzQkNGVUVYNzNtMGhiY2hsL01EUmR4LytobkVjV3U1VUxhUXJGd3dkT2xSdWo2V3JlZVEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDE4OTIyCWZpbGU6TGlmZU9TLmFwcC50YXIuZ3oKeTJ3QXIzV0NuRDRMN3Q1ZHdmOHFzMTdQbzlGUmMya3VzVEZIZ3N2OUl6NlV1Nmh1TG0wVlVCUlNxS0JZbFJ0MmVPUXRadGJUVjk4NjNUK3B1WVJCQXc9PQo=",
+      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.16/LifeOS_x64.app.tar.gz"
+    },
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbGVxcjU5TThpaWdIcWNOZlV4RnhXWk5mZGhndXBiZjBkVmZmVnVjbjV0RGcyS3h2bmY2NXhEWWdIeVJTdjRXMnBYUVV0b1g4bUl2QXlqQ3dGNE9ycGdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDE4OTcxCWZpbGU6TGlmZU9TLmFwcC50YXIuZ3oKTXJVUkpUZHFwMDV2d0NyYVZGU2VoV04vQStSaktLajU4NjRRc2pkL0djaUM0M3V4WDNFOERzRG9PWlFGR3hwN0VHcjRRb2t2aTlhOTUydzRMSDgwQWc9PQo=",
+      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.16/LifeOS_aarch64.app.tar.gz"
+    },
+    "darwin-aarch64-app": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbGVxcjU5TThpaWdIcWNOZlV4RnhXWk5mZGhndXBiZjBkVmZmVnVjbjV0RGcyS3h2bmY2NXhEWWdIeVJTdjRXMnBYUVV0b1g4bUl2QXlqQ3dGNE9ycGdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDE4OTcxCWZpbGU6TGlmZU9TLmFwcC50YXIuZ3oKTXJVUkpUZHFwMDV2d0NyYVZGU2VoV04vQStSaktLajU4NjRRc2pkL0djaUM0M3V4WDNFOERzRG9PWlFGR3hwN0VHcjRRb2t2aTlhOTUydzRMSDgwQWc9PQo=",
+      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.16/LifeOS_aarch64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbFVaMFZmcHA5N0FkWXB2OFBkOXFpUmE2eWg0VWp2SGtiNld3dVd1SnlSeUlnaGQ1c1ZjanMxd1hnY2ZlajNBc2tYRHh6dFlBbUFhRktnYU1nUWFpSXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTYxMjM5CWZpbGU6TGlmZU9TXzAuNS4xNV94NjRfZW4tVVMubXNpClZiemRTdGZXZXVwN1FtMUU2QXdqdkhPZnFNMkF6STZvcHNtc2ZWT05UKzQyVkVPUkZXVkF1VmZ4OHZPcHpLMm5wVTBLWkVJRUFUeEpvTnBGQkx5UkRRPT0K",
-      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.15/LifeOS_0.5.15_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbFVpMjNSQVQxQ1VGdkFrTU54OXk1bzlmc09nQWl2S3FJckRZamhrRFBNa042TjdqeXhuQ1UrNjdQY2F3UjFSbnBGSXBXbFlnZGVCamt1RmlDVjgvYmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDE5NTcwCWZpbGU6TGlmZU9TXzAuNS4xNl94NjRfZW4tVVMubXNpCm1lMjFOeEJVa1Z1ZGNDWEVTbEhyTU0wODVjaU1nMVErWWdBRVBGdG5aTS9TQnljbms2Z25udTlCaHRoS3JsRXRTdHBkRmJvUkhDbVRrSldleEVCVkJBPT0K",
+      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.16/LifeOS_0.5.16_x64_en-US.msi"
     },
     "windows-x86_64-msi": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbFVaMFZmcHA5N0FkWXB2OFBkOXFpUmE2eWg0VWp2SGtiNld3dVd1SnlSeUlnaGQ1c1ZjanMxd1hnY2ZlajNBc2tYRHh6dFlBbUFhRktnYU1nUWFpSXdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTYxMjM5CWZpbGU6TGlmZU9TXzAuNS4xNV94NjRfZW4tVVMubXNpClZiemRTdGZXZXVwN1FtMUU2QXdqdkhPZnFNMkF6STZvcHNtc2ZWT05UKzQyVkVPUkZXVkF1VmZ4OHZPcHpLMm5wVTBLWkVJRUFUeEpvTnBGQkx5UkRRPT0K",
-      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.15/LifeOS_0.5.15_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbFVpMjNSQVQxQ1VGdkFrTU54OXk1bzlmc09nQWl2S3FJckRZamhrRFBNa042TjdqeXhuQ1UrNjdQY2F3UjFSbnBGSXBXbFlnZGVCamt1RmlDVjgvYmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDE5NTcwCWZpbGU6TGlmZU9TXzAuNS4xNl94NjRfZW4tVVMubXNpCm1lMjFOeEJVa1Z1ZGNDWEVTbEhyTU0wODVjaU1nMVErWWdBRVBGdG5aTS9TQnljbms2Z25udTlCaHRoS3JsRXRTdHBkRmJvUkhDbVRrSldleEVCVkJBPT0K",
+      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.16/LifeOS_0.5.16_x64_en-US.msi"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbGFvRHBueWdKU1NiMDh1R3phdXBXUHJ6S3JiY3JCc1BTdmNyYkw3ZGhkaGllcHRuZGYrZWxuT0thUm9GQUxBUWpveGRod0hYR25TRVhkeXcrSkVXN2dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTYxMjM5CWZpbGU6TGlmZU9TXzAuNS4xNV94NjQtc2V0dXAuZXhlClQ2eHhTZEdXc1VRMGo0OXR4MnpDY2pJN3FvRjYyUS9DNkM5cW9PMGh4eEx6NU1VK2ZFcWJsYmdLdW5GaGhCMTI1T2xiazZSbk16ZTJjV05xZGltZ0FRPT0K",
-      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.15/LifeOS_0.5.15_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbGZQbDNVVThkREorMm1LUWI1TDFtK2tMUjVweUl0R0h4VVVlQ0FNc3pLM3Y3TW5MRGsxbWxsWkNYNEhXYXphM1JWQWExLzQwQzlYRHU2YlhZNEpWd1FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDE5NTcwCWZpbGU6TGlmZU9TXzAuNS4xNl94NjQtc2V0dXAuZXhlCk1DOCtlQ1JncGZhU1lRRFlnSEg1K3dsTSsya0Z1VlYyTUZRek1Db0hKMkhJTzlKd1dqSTF4RmFqeUtVUFNqRzFHYWE5VUxFVkI0QnZ6SmROTnFqcEJ3PT0K",
+      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.16/LifeOS_0.5.16_x64-setup.exe"
     },
     "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbFpNaHdJS05ETUNpQzFGQ1NQNDdNdTBmUTlGQ2s4WVlZUkljN0RyUlpkVmhlMlU2a2ZDOU1zMDViTi8zZmhxdnloZGczSjVMZmtFZkRjdFo2ak1DVkFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTYxNDE3CWZpbGU6TGlmZU9TXzAuNS4xNV9hbWQ2NC5BcHBJbWFnZQpaTmxmTUt1dENPSzk0eVVlVC9pMzJRMks2cWJ3Z1pVTS8wZkFSaUZWTjFyZnVVdGo1VnNwaUFsTlBzWE54RHZiV3VvOG1WTmVIUzFpZE9NaXJyTFpEUT09Cg==",
-      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.15/LifeOS_0.5.15_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbGNIdkZFSmZadzd3Vnk2bHJqSk5pdHpQeGR3Wmp2SzBLWGpxY1Uva1FqSXNxU1JOQU5xN1E4aHFqd29rZzJJZTFTdmlEVXJ5M09EdmdzY0ZkdTYrRlEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDE5ODg0CWZpbGU6TGlmZU9TXzAuNS4xNl9hbWQ2NC5BcHBJbWFnZQo4aGxTSzlhb1hSeXJFMnVVVHFPVEJnaXA2dlEyTEdPRVNqQ0V4L21KS3lWMXNHaEs1OG9sYThsMkFvOWk5MmdwcVJhYmtkOFVtMWVFakJZaG1hQWxCUT09Cg==",
+      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.16/LifeOS_0.5.16_amd64.AppImage"
     },
     "linux-x86_64-appimage": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbFpNaHdJS05ETUNpQzFGQ1NQNDdNdTBmUTlGQ2s4WVlZUkljN0RyUlpkVmhlMlU2a2ZDOU1zMDViTi8zZmhxdnloZGczSjVMZmtFZkRjdFo2ak1DVkFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTYxNDE3CWZpbGU6TGlmZU9TXzAuNS4xNV9hbWQ2NC5BcHBJbWFnZQpaTmxmTUt1dENPSzk0eVVlVC9pMzJRMks2cWJ3Z1pVTS8wZkFSaUZWTjFyZnVVdGo1VnNwaUFsTlBzWE54RHZiV3VvOG1WTmVIUzFpZE9NaXJyTFpEUT09Cg==",
-      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.15/LifeOS_0.5.15_amd64.AppImage"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbGNIdkZFSmZadzd3Vnk2bHJqSk5pdHpQeGR3Wmp2SzBLWGpxY1Uva1FqSXNxU1JOQU5xN1E4aHFqd29rZzJJZTFTdmlEVXJ5M09EdmdzY0ZkdTYrRlEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDE5ODg0CWZpbGU6TGlmZU9TXzAuNS4xNl9hbWQ2NC5BcHBJbWFnZQo4aGxTSzlhb1hSeXJFMnVVVHFPVEJnaXA2dlEyTEdPRVNqQ0V4L21KS3lWMXNHaEs1OG9sYThsMkFvOWk5MmdwcVJhYmtkOFVtMWVFakJZaG1hQWxCUT09Cg==",
+      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.16/LifeOS_0.5.16_amd64.AppImage"
     },
     "linux-x86_64-deb": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbFcvZ0ZRVU5wS21WbGxpL0NQK1hJNFNha2RvenNvK1NOVFZyWkdJdTlmcWFwUFU0Zi9GVkpVSFAzdmNteVNlTXplOENFNjNhN01YcjNXSVp0UEVWcWdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTYxNDE3CWZpbGU6TGlmZU9TXzAuNS4xNV9hbWQ2NC5kZWIKY2xZTW5ja3ZhMmdBM0kzK1luVDlMR0ZOeG1KSWJwRmlFQkRtOTJ6eVZhbmd2dnhla1FKMkV1U3RScFZseVlsbWkwdFNwU0UvWmlqNWJGem5XSWtFQnc9PQo=",
-      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.15/LifeOS_0.5.15_amd64.deb"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbGVjaDAwVFFNRXhCdFdnVkFVZUJUeEVsT2xyUVdvVzZMYlM3SWw3cXJnOTExNXZIUWlDeWhDMm14TmFzc29nRmZ1TnhyQytObWRvbDdpT2ZhcXcvcUE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDE5ODgzCWZpbGU6TGlmZU9TXzAuNS4xNl9hbWQ2NC5kZWIKRms2TzljemFpVDhGc2xWWUZCaUpmUzNESTYzR3hGd0V1Z2tSTy9YNTNvTE9HUEhCbzNFWUtWZmtKWU45N0V0VWlhUkk4WkFtSkZmdmRpZCtLVVhEQlE9PQo=",
+      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.16/LifeOS_0.5.16_amd64.deb"
     },
     "linux-x86_64-rpm": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbFh6blFuVVlEK2JidjBFbDIzTnJxM2pkU0t5R0lHRDJva1RRbUdaaWVGelh6ZVVxay9xdVR0UkpWdEFRazdpd0FOZzFnYkp2U3hqVG9mYVNHb3RabmdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyOTYxNDE3CWZpbGU6TGlmZU9TLTAuNS4xNS0xLng4Nl82NC5ycG0KbzFzaTd3YXNId1dVWVI0KzlzRDdzdHFFQlo2WHRsM1g5MUptNXcvWmo5TDREWnNxR2F5RHNiNTJ2SjhXclkrV3plSTlLQVVJNzZRc0RobXd2VXV1RFE9PQo=",
-      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.15/LifeOS-0.5.15-1.x86_64.rpm"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUUnA4ZDB3RDZvbFFOclZqWm1CMjNWeEd4WGdaeHQvWG5WRTVHQUFXSlN6TUJDTFpIc1RPVGlIYXMxWUEwcm5UaXFVbHF6dGtvd2J4dnpyUjhhYmtnWWk3dkppazBHVVFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDE5ODgzCWZpbGU6TGlmZU9TLTAuNS4xNi0xLng4Nl82NC5ycG0KM0d1WVlMcVRhWWZiQ202MGpPa3FIMStFejljelpwTlhmS3FscDgwZkhoL003WVZxbDJ0d3luZUQ5RFdiSDg5NHpITWh2QUZjZFBFMnd6bFl4N3d2QXc9PQo=",
+      "url": "https://github.com/theocannac/lifeos-releases/releases/download/v0.5.16/LifeOS-0.5.16-1.x86_64.rpm"
     }
   },
   "lifeos": {
